@@ -1,0 +1,7 @@
+/* Uses Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;800;900&family=Merriweather:wght@400;700;900&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* Common Shared Section */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
