@@ -35,7 +35,7 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 45px;
+    margin-right: 25px;
 }
 
 nav li a {
@@ -66,17 +66,43 @@ nav li a {
     line-height: 26px;
     margin-bottom: 35px;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
     margin-bottom: 45px;
 }
-.primary-btn{
+
+.primary-btn {
+    color: #FFF;
+    border: none;
     font-size: 20px;
-font-weight: 600;
-border-radius: 8px;
-background: #FF900E;
-width: 185px;
-height: 65px;
-margin-bottom: 50px;
-padding: 20px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 185px;
+    height: 65px;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+}
+/* Mobile Phone media-query */
+@media screen and (max-width:576px) {
+    header{
+        padding: 5px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        padding: 0px auto;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 15px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
 }
